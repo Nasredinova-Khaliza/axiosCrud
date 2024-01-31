@@ -1,0 +1,166 @@
+.todo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.todo {
+	text-align: center;
+}
+.container {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.inputs_1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 20px;
+	gap: 30px;
+}
+
+input {
+	width: 500px;
+	height: 40px;
+	text-align: center;
+	border-radius: 12px;
+	border: none;
+	background-color: silver;
+	&:hover {
+		box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
+		transform: scale(1.05);
+	}
+}
+
+.buttons_1 {
+	display: flex;
+	gap: 20px;
+}
+.addButton {
+	width: 100px;
+	height: 40px;
+	border-radius: 12px;
+	border: none;
+	background-color: blue;
+	color: white;
+}
+.deleteAllButton {
+	width: 100px;
+	height: 40px;
+	border-radius: 12px;
+	border: none;
+	background-color: red;
+	color: white;
+}
+
+.main {
+  margin-left: 110px;
+	display: flex;
+	margin-top: 30px;
+	gap: 20px;
+	flex-wrap: wrap;
+}
+
+.content {
+	.cards {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		width: 400px;
+		height: 450px;
+		background-color: white;
+		border-radius: 12px;
+		box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
+		transform: scale(1);
+		transition: transform 0.3s ease-in-out;
+		&:hover {
+			transform: scale(1.05);
+			background: wheat;
+		}
+	}
+}
+.inputs_2 {
+	width: 400px;
+	height: 500px;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 20px;
+	gap: 30px;
+}
+input {
+	width: 300px;
+	height: 40px;
+	text-align: center;
+	border-radius: 12px;
+	border: none;
+	background-color: silver;
+	&:hover {
+		box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
+		transform: scale(1.05);
+	}
+}
+.card {
+	img {
+		width: 300px;
+		height: 300px;
+		border-radius: 30px;
+		box-shadow: 0 0 20px 0 black;
+		margin-top: 10px;
+	}
+	.cardsButtons {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		gap: 30px;
+		border-radius: 12px;
+		margin-top: 20px;
+
+		.edit_button:hover {
+			background: green;
+		}
+
+		.delete:hover {
+			background: red;
+		}
+		button {
+			width: 100px;
+			height: 40px;
+			border-radius: 12px;
+			border: none;
+			background-color: rgb(83, 83, 201);
+			color: white;
+		}
+	}
+}
+.cardButtons {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	gap: 20px;
+
+	button {
+		width: 100px;
+		height: 40px;
+		border-radius: 12px;
+		border: none;
+		background-color: rgb(83, 83, 201);
+		color: white;
+	}
+}
+
+.h1_p {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-weight: 900;
+}
+
+.update:hover {
+	background: green;
+}
